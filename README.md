@@ -61,7 +61,7 @@ sudo apt install libxcrypt-dev
 ### 🔹 2. Run the Tool
 
 ```bash
-python3 crack.py hash.txt /path/to/wordlist.txt
+python3 yescrypt_cracker.py hash.txt /path/to/wordlist.txt
 ```
 
 Example:
@@ -75,7 +75,7 @@ python3 crack.py hash.txt /usr/share/wordlists/rockyou.txt
 ## 📝 Sample Output
 
 ```bash
-Password found: mysecretpassword
+Password found: zExO18pPx2dZ61
 ```
 
 Or, if the password is not in the list:
