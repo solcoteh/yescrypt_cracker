@@ -4,7 +4,7 @@ Sure! Here's a complete and well-structured `README.md` for your yescrypt passwo
 
 # 🔐 Yescrypt Password Cracker
 
-A simple command-line tool written in Python to crack **yescrypt**-hashed passwords using a wordlist (dictionary attack). This tool attempts to match a hashed password with its plaintext version by comparing against each entry in a given wordlist.
+A simple command-line tool written in Python and C to crack **yescrypt**-hashed passwords using a wordlist (dictionary attack). This tool attempts to match a hashed password with its plaintext version by comparing against each entry in a given wordlist.
 
 ---
 
@@ -12,7 +12,6 @@ A simple command-line tool written in Python to crack **yescrypt**-hashed passwo
 
 * Accepts hash input from a file.
 * Accepts a wordlist file path as an argument.
-* Uses Python's built-in `crypt` module to hash and compare.
 * Simple, lightweight, and easy to use.
 * Supports **yescrypt**, provided your system’s `crypt()` implementation supports it.
 
@@ -20,7 +19,6 @@ A simple command-line tool written in Python to crack **yescrypt**-hashed passwo
 
 ## 🧰 Requirements
 
-* Python 3.x
 * A Linux or Unix-based system (because it uses the `crypt` module with yescrypt support)
 * A valid wordlist (e.g., `rockyou.txt`)
 
@@ -71,7 +69,7 @@ python3 yescrypt_cracker.py hash.txt /usr/share/wordlists/rockyou.txt
 ```
 
 ---
-### 🔹 2. Run the Tool With C
+### 🔹 3. Run the Tool With C
 
 For Compile and Usage
 ```bash
