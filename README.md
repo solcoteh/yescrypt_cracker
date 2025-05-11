@@ -120,8 +120,6 @@ Password not found.
 
 This tool is intended for **educational and authorized testing purposes only**. Do **not** use it to attempt unauthorized access to systems or accounts. The developer is **not responsible** for any misuse.
 
----
-
 ## 📄 License
 
 This project is released under the Solcoteh License.
