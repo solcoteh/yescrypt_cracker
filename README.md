@@ -58,7 +58,7 @@ sudo apt install libxcrypt-dev
 
 * Make sure you have a wordlist, e.g., `/usr/share/wordlists/rockyou.txt`.
 
-### 🔹 2. Run the Tool
+### 🔹 2. Run the Tool With python
 
 ```bash
 python3 yescrypt_cracker.py hash.txt /path/to/wordlist.txt
@@ -67,8 +67,23 @@ python3 yescrypt_cracker.py hash.txt /path/to/wordlist.txt
 Example:
 
 ```bash
-python3 crack.py hash.txt /usr/share/wordlists/rockyou.txt
+python3 yescrypt_cracker.py hash.txt /usr/share/wordlists/rockyou.txt
 ```
+
+---
+### 🔹 2. Run the Tool With C
+
+For Compile and Usage
+```bash
+gcc -o yescrypt_cracker yescrypt_cracker.c -lcrypt
+./yescrypt_cracker <hash_file> <wordlist_file>
+```
+Example:
+
+```bash
+./yescrypt_cracker hash.txt /usr/share/wordlists/rockyou.txt
+```
+---
 
 ---
 
